@@ -1,0 +1,18 @@
+{
+    "presets": [
+        "react",
+        [
+            "env",
+            {
+                "useBuiltIns": true,
+                "debug": false,
+                "targets": {
+                    "browsers": [
+                        ">= 1%"
+                    ]
+                }
+            }
+        ],
+        "stage-2"
+    ]
+}
